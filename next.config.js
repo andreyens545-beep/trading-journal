@@ -1,13 +1,2 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  typescript: {
-    tsconfigPath: './tsconfig.json',
-  },
-  images: {
-    unoptimized: true,
-  },
-};
-
-module.exports = nextConfig;
+const config = {};
+module.exports = config;

@@ -1,28 +1,62 @@
-# Trading Journal
+# Trading Journal 📊
 
-A professional web application for traders to record, analyze, and track their trading performance.
+Профессиональное приложение для отслеживания торговли на Forex и криптовалютах.
 
-## Features
-
-- Complete trade CRUD operations
-- Dashboard with key performance metrics
-- Trade calendar view
-- Advanced analytics and charts
-- Currency pair management
-- Trade attachments (images and links)
-- Win/loss streaks tracking
-- Maximum drawdown calculation
-- Period-based filtering (month, quarter, year, all time)
-- Responsive dark-mode UI
-
-## Getting Started
+## ⚡ Быстрый старт
 
 ```bash
 npm install
-npm run prisma:generate
-npm run prisma:push
-npm run prisma:seed
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Откройте в браузере: **http://localhost:3000**
+
+## 📋 Возможности
+
+✅ Дашборд со статистикой торговли
+✅ Таблица всех сделок
+✅ Расчёт win rate и профита
+✅ Отслеживание RR (Risk/Reward)
+✅ Тёмная тема
+✅ Быстрая загрузка
+
+## 🛠 Технологии
+
+- Next.js 14
+- React 18
+- JavaScript/JSX
+
+## 📁 Структура
+
+```
+trading-journal/
+├── app/
+│   ├── layout.jsx      # Главный layout
+│   └── page.jsx        # Главная страница
+├── package.json        # Зависимости
+└── README.md          # Документация
+```
+
+## 🚀 Установка
+
+1. Склонируйте репо:
+```bash
+git clone https://github.com/andreyens545-beep/trading-journal.git
+cd trading-journal
+```
+
+2. Установите зависимости:
+```bash
+npm install
+```
+
+3. Запустите dev сервер:
+```bash
+npm run dev
+```
+
+4. Откройте http://localhost:3000
+
+## 📝 Лицензия
+
+MIT
